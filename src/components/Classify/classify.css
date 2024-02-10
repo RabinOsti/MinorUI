@@ -4,6 +4,8 @@
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .classify label {
   padding: 0.8em 1.4em;
@@ -19,14 +21,18 @@
   background-color: #2aaa8a;
 }
 .classify img {
-  max-width: 600px;
-  height: auto;
+  width: 100%;
 }
 .report {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   text-align: center;
+}
+.reportLoading {
+  height: 60px;
+  width: 40vw;
+  border-radius: 10px;
 }
 
 @media (max-width: 400px) {
@@ -36,4 +42,7 @@
   .classify label {
     font-size: 13px;
   }
+}
+.errorMsg{
+  color: red;
 }
