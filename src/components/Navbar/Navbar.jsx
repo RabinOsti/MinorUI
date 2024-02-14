@@ -8,7 +8,9 @@ const Navbar = () => {
         <div className="navbar">
           <div className="logo">
             <img src="/logo.png" alt="logo" />
-            <h1>TomatoHavestInsight</h1>
+            <Link to="/">
+              <h1 style={{ color: "black" }}>TomatoHavestInsight</h1>
+            </Link>
           </div>
           <nav>
             <ul>
